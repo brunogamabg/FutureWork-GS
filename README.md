@@ -2,7 +2,6 @@
     <h1>FutureWork – O Futuro do Trabalho</h1>
     <p>Projeto Web / Plataforma de Emprego e Futuro Profissional<br>
     Plataforma para conectar profissionais e empregadores, focada em tendências, habilidades e oportunidades no mercado de trabalho.</p>
-
     <h2>🧠 Sobre o Projeto</h2>
     <p>Este projeto implementa uma plataforma web que tem como objetivo apoiar profissionais e empregadores na adaptação às mudanças do mercado de trabalho. Através de interfaces modernas, cadastro, gestão de perfis e pesquisa de oportunidades, a aplicação permite monitorar e se preparar para as novas demandas do futuro profissional.</p>
     <h2>🎯 Objetivos</h2>
