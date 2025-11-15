@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function ProfessionalCard({ profissional, onClick }) {
-  // Avatar DiceBear
   const avatarUrl = `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(profissional.nome.split(' ')[0])}`;
   return (
     <div

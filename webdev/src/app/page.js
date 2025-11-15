@@ -1,12 +1,12 @@
 
 "use client";
 import { useState, useMemo } from "react";
-import useProfessionals from "@/src/hooks/useProfessionals";
-import ProfessionalCard from "@/src/components/ProfissionalCard";
-import ProfessionalModal from "@/src/components/ProfessionalModal";
-import SearchBar from "@/src/components/SearchBaar";
-import FilterBar from "@/src/components/FilterBaar";
-import Header from "@/src/components/Heeader";
+import useProfessionals from "@/hooks/useProfessionals";
+import ProfessionalCard from "@/components/ProfissionalCard";
+import ProfessionalModal from "@/components/ProfissionalModal";
+import SearchBar from "@/components/SearchBar";
+import FilterBar from "@/components/FilterBar";
+import Header from "@/components/Header";
 
 export default function Home() {
   const { data, loading, error } = useProfessionals();
@@ -18,6 +18,14 @@ export default function Home() {
   const [recommendMsg, setRecommendMsg] = useState("");
   const [messageModal, setMessageModal] = useState(false);
 
+  // Normaliza texto para busca sem acentos e case-insensitive
+  const normalize = (str) =>
+    (str || "")
+      .toString()
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+
   // Extrai áreas, cidades e tecnologias únicas
   const areas = useMemo(() => [...new Set(data.map(p => p.area))], [data]);
   const cidades = useMemo(() => [...new Set(data.map(p => p.cidade))], [data]);
@@ -25,15 +33,26 @@ export default function Home() {
 
   // Filtragem
   const filtered = useMemo(() => {
+    const q = normalize(search);
     return data.filter(p => {
+      const nome = normalize(p.nome);
+      const cargo = normalize(p.cargo);
+      const areaP = normalize(p.area);
+      const cidadeP = normalize(p.cidade);
+      const skills = (p.skills || []).map(normalize);
+
       const matchSearch =
-        p.nome.toLowerCase().includes(search.toLowerCase()) ||
-        p.area.toLowerCase().includes(search.toLowerCase()) ||
-        p.cidade.toLowerCase().includes(search.toLowerCase()) ||
-        p.skills.some(s => s.toLowerCase().includes(search.toLowerCase()));
+        q === "" ||
+        nome.includes(q) ||
+        cargo.includes(q) ||
+        areaP.includes(q) ||
+        cidadeP.includes(q) ||
+        skills.some(s => s.includes(q));
+
       const matchArea = area ? p.area === area : true;
       const matchCidade = cidade ? p.cidade === cidade : true;
-      const matchTecnologia = tecnologia ? p.skills.includes(tecnologia) : true;
+      const matchTecnologia = tecnologia ? (p.skills || []).includes(tecnologia) : true;
+
       return matchSearch && matchArea && matchCidade && matchTecnologia;
     });
   }, [data, search, area, cidade, tecnologia]);
@@ -79,7 +98,7 @@ export default function Home() {
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
-            {filtered.length} profissionais encontrados
+            {loading ? "Carregando..." : `${filtered.length} profissionais encontrados`}
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {filtered.map(p => (

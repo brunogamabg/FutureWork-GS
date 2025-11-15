@@ -10,7 +10,7 @@ export default function SearchBar({ value, onChange }) {
             </div>
             <input
                 type="text"
-                placeholder="Buscar por nome, carga, habilidade..."
+                placeholder="Buscar por nome, cargo, habilidade..."
                 className="w-full pl-10 pr-4 py-3 rounded-lg border border-gray-700 bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
                 value={value}
                 onChange={e => onChange(e.target.value)}
