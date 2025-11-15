@@ -5,7 +5,6 @@
 
     <h2>🧠 Sobre o Projeto</h2>
     <p>Este projeto implementa uma plataforma web que tem como objetivo apoiar profissionais e empregadores na adaptação às mudanças do mercado de trabalho. Através de interfaces modernas, cadastro, gestão de perfis e pesquisa de oportunidades, a aplicação permite monitorar e se preparar para as novas demandas do futuro profissional.</p>
-
     <h2>🎯 Objetivos</h2>
     <ul>
         <li>Permitir que profissionais criem perfis com habilidades e experiências</li>
