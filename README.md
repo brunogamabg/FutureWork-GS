@@ -40,7 +40,6 @@
             <td>Interação entre front-end e back-end</td>
         </tr>
     </table>
-
     <h2>🧠 Funcionamento</h2>
     <p>
         Os usuários (profissionais ou empregadores) fazem cadastro e login na plataforma.<br>
@@ -48,7 +47,6 @@
         Empregadores criam vagas, filtram candidatos e gerenciam processos seletivos.<br>
         A plataforma também exibe conteúdos sobre tendências do mercado de trabalho.
     </p>
-
     <h2>🔧 Instalação do Projeto</h2>
     <ol>
         <li>Clone o repositório:<br>
@@ -66,23 +64,19 @@
         </li>
         <li>Acesse no navegador: <code>http://localhost:3000</code></li>
     </ol>
-
     <h2>🔐 Usuários e Senhas</h2>
     <p>(Exemplo — substitua pelos reais caso existam)</p>
     <ul>
         <li>Profissional demo: <b>prof_demo@example.com</b> / Senha: <b>Senha123!</b></li>
         <li>Empregador demo: <b>emp_demo@example.com</b> / Senha: <b>Senha123!</b></li>
     </ul>
-
     <h2>👨‍💻 Integrantes do Grupo</h2>
     <ul>
         <li>BRUNO GAMA MASSEIRAS — RM: 562526</li>
         <li>Kauai Rosa — RM: 2345678</li>
     </ul>
-
     <h2>📂 Link do Repositório</h2>
     <p>https://github.com/seu-usuario/seu-repositorio</p>
-
     <h2>❤️ Agradecimentos</h2>
     <p>
         Projeto desenvolvido pelo bem do mercado<br>
