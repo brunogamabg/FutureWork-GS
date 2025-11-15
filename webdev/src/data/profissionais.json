@@ -1,0 +1,1153 @@
+[
+    {
+        "id": 1,
+        "nome": "Ana Silva Santos",
+        "cargo": "Desenvolvedora Full Stack Sênior",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "ana.silva@email.com",
+        "telefone": "(11) 98765-4321",
+        "linkedin": "linkedin.com/in/anasilva",
+        "skills": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "AWS"
+        ],
+        "academico": "Bacharel em Ciência da Computação - USP (2015-2019)",
+        "posGraduacao": "Especialização em Engenharia de Software - FIAP (2020-2021)",
+        "experiencia": "5 anos em desenvolvimento web full stack, atuando em projetos de grande escala",
+        "empresaAtual": "TechCorp Solutions",
+        "cargoAnterior": "Desenvolvedora Pleno na StartupXYZ (2019-2021)",
+        "softSkills": [
+            "Liderança",
+            "Comunicação",
+            "Trabalho em equipe",
+            "Resolução de problemas"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)",
+            "Espanhol (Intermediário)"
+        ],
+        "hobbies": [
+            "Fotografia",
+            "Corrida",
+            "Leitura de ficção científica"
+        ],
+        "certificacoes": [
+            "AWS Certified Developer",
+            "React Advanced Certification"
+        ],
+        "sobre": "Desenvolvedora apaixonada por tecnologia e inovação, com experiência em liderar equipes e entregar soluções escaláveis."
+    },
+    {
+        "id": 2,
+        "nome": "Bruno Carvalho",
+        "cargo": "Designer UX/UI Pleno",
+        "cidade": "Rio de Janeiro",
+        "area": "Design",
+        "email": "bruno.carvalho@email.com",
+        "telefone": "(21) 97654-3210",
+        "linkedin": "linkedin.com/in/brunocarvalho",
+        "skills": [
+            "Figma",
+            "Adobe XD",
+            "Design System",
+            "Prototipagem"
+        ],
+        "academico": "Bacharel em Design Gráfico - PUC-Rio (2016-2020)",
+        "posGraduacao": "MBA em Design Thinking - FGV (2021-2022)",
+        "experiencia": "4 anos em design de interfaces e experiência do usuário",
+        "empresaAtual": "Creative Digital Agency",
+        "cargoAnterior": "Designer Júnior na PixelPerfect (2020-2022)",
+        "softSkills": [
+            "Criatividade",
+            "Empatia",
+            "Pensamento crítico",
+            "Colaboração"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Avançado)"
+        ],
+        "hobbies": [
+            "Ilustração digital",
+            "Cinema",
+            "Viagens"
+        ],
+        "certificacoes": [
+            "Google UX Design Certificate",
+            "Adobe Certified Expert"
+        ],
+        "sobre": "Designer focado em criar experiências intuitivas e visualmente atraentes, sempre buscando entender as necessidades dos usuários."
+    },
+    {
+        "id": 3,
+        "nome": "Carla Mendes",
+        "cargo": "Gerente de Projetos Ágeis",
+        "cidade": "Brasília",
+        "area": "Gestão",
+        "email": "carla.mendes@email.com",
+        "telefone": "(61) 96543-2109",
+        "linkedin": "linkedin.com/in/carlamendes",
+        "skills": [
+            "Scrum",
+            "Kanban",
+            "Jira",
+            "Gestão de Equipes"
+        ],
+        "academico": "Bacharel em Administração - UnB (2014-2018)",
+        "posGraduacao": "MBA em Gestão de Projetos - FIA (2019-2020)",
+        "experiencia": "6 anos em gestão de projetos e times ágeis",
+        "empresaAtual": "Global Tech Consulting",
+        "cargoAnterior": "Scrum Master na InnovaSoft (2018-2021)",
+        "softSkills": [
+            "Liderança",
+            "Organização",
+            "Comunicação assertiva",
+            "Negociação"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)",
+            "Francês (Básico)"
+        ],
+        "hobbies": [
+            "Yoga",
+            "Culinária",
+            "Podcasts de gestão"
+        ],
+        "certificacoes": [
+            "Certified Scrum Master (CSM)",
+            "PMP",
+            "SAFe Agilist"
+        ],
+        "sobre": "Profissional experiente em metodologias ágeis, com histórico de sucesso na entrega de projetos complexos dentro do prazo."
+    },
+    {
+        "id": 4,
+        "nome": "Daniel Costa",
+        "cargo": "Cientista de Dados",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "daniel.costa@email.com",
+        "telefone": "(11) 95432-1098",
+        "linkedin": "linkedin.com/in/danielcosta",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "SQL",
+            "TensorFlow"
+        ],
+        "academico": "Bacharel em Estatística - IME-USP (2015-2019)",
+        "posGraduacao": "Mestrado em Ciência de Dados - USP (2019-2021)",
+        "experiencia": "4 anos em análise de dados e desenvolvimento de modelos preditivos",
+        "empresaAtual": "DataDriven Analytics",
+        "cargoAnterior": "Analista de Dados na FinTech Solutions (2019-2021)",
+        "softSkills": [
+            "Pensamento analítico",
+            "Curiosidade",
+            "Atenção aos detalhes",
+            "Comunicação técnica"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)"
+        ],
+        "hobbies": [
+            "Xadrez",
+            "Matemática recreativa",
+            "Hiking"
+        ],
+        "certificacoes": [
+            "Google Data Analytics Certificate",
+            "IBM Data Science Professional"
+        ],
+        "sobre": "Cientista de dados apaixonado por transformar dados em insights acionáveis e impulsionar decisões estratégicas."
+    },
+    {
+        "id": 5,
+        "nome": "Elena Rodriguez",
+        "cargo": "Engenheira DevOps",
+        "cidade": "Curitiba",
+        "area": "Tecnologia",
+        "email": "elena.rodriguez@email.com",
+        "telefone": "(41) 94321-0987",
+        "linkedin": "linkedin.com/in/elenarodriguez",
+        "skills": [
+            "Kubernetes",
+            "Docker",
+            "CI/CD",
+            "AWS"
+        ],
+        "academico": "Bacharel em Engenharia de Computação - UTFPR (2014-2019)",
+        "posGraduacao": "Especialização em Cloud Computing - PUC-PR (2020-2021)",
+        "experiencia": "5 anos em infraestrutura, automação e cloud",
+        "empresaAtual": "CloudNative Solutions",
+        "cargoAnterior": "SysAdmin na TechInfra (2019-2021)",
+        "softSkills": [
+            "Proatividade",
+            "Resolução de problemas",
+            "Trabalho sob pressão",
+            "Colaboração"
+        ],
+        "idiomas": [
+            "Português (Fluente)",
+            "Espanhol (Nativo)",
+            "Inglês (Fluente)"
+        ],
+        "hobbies": [
+            "Automação residencial",
+            "Gaming",
+            "Bike"
+        ],
+        "certificacoes": [
+            "AWS Certified DevOps Engineer",
+            "Kubernetes Administrator (CKA)"
+        ],
+        "sobre": "Engenheira DevOps com foco em automação e otimização de processos, buscando sempre a excelência operacional."
+    },
+    {
+        "id": 6,
+        "nome": "Fernando Lima",
+        "cargo": "Analista de Segurança da Informação",
+        "cidade": "Belo Horizonte",
+        "area": "Tecnologia",
+        "email": "fernando.lima@email.com",
+        "telefone": "(31) 93210-9876",
+        "linkedin": "linkedin.com/in/fernandolima",
+        "skills": [
+            "Pentest",
+            "OWASP",
+            "Segurança de Rede",
+            "Firewall"
+        ],
+        "academico": "Bacharel em Sistemas de Informação - PUC Minas (2015-2019)",
+        "posGraduacao": "Especialização em Segurança da Informação - UFMG (2020-2021)",
+        "experiencia": "5 anos em segurança cibernética e testes de penetração",
+        "empresaAtual": "SecureNet Cybersecurity",
+        "cargoAnterior": "Analista de Segurança Jr. na CyberGuard (2019-2021)",
+        "softSkills": [
+            "Atenção aos detalhes",
+            "Pensamento crítico",
+            "Ética",
+            "Aprendizado contínuo"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Avançado)"
+        ],
+        "hobbies": [
+            "CTF competitions",
+            "Programação",
+            "Documentários de tecnologia"
+        ],
+        "certificacoes": [
+            "CEH - Certified Ethical Hacker",
+            "CISSP",
+            "CompTIA Security+"
+        ],
+        "sobre": "Especialista em segurança da informação dedicado a proteger sistemas e dados contra ameaças cibernéticas."
+    },
+    {
+        "id": 7,
+        "nome": "Gabriela Ferreira",
+        "cargo": "Product Owner",
+        "cidade": "São Paulo",
+        "area": "Gestão",
+        "email": "gabriela.ferreira@email.com",
+        "telefone": "(11) 92109-8765",
+        "linkedin": "linkedin.com/in/gabrielaferreira",
+        "skills": [
+            "Product Management",
+            "Roadmap",
+            "User Stories",
+            "Analytics"
+        ],
+        "academico": "Bacharel em Engenharia de Produção - Poli-USP (2014-2018)",
+        "posGraduacao": "MBA em Gestão de Produtos Digitais - ESPM (2019-2020)",
+        "experiencia": "6 anos em gestão de produtos digitais e estratégia",
+        "empresaAtual": "ProductHub Innovation",
+        "cargoAnterior": "Product Manager na E-commerce Giant (2018-2022)",
+        "softSkills": [
+            "Visão estratégica",
+            "Tomada de decisão",
+            "Negociação",
+            "Empatia"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)",
+            "Italiano (Básico)"
+        ],
+        "hobbies": [
+            "Leitura de negócios",
+            "Networking",
+            "Gastronomia"
+        ],
+        "certificacoes": [
+            "CSPO - Certified Scrum Product Owner",
+            "Product Management Certificate"
+        ],
+        "sobre": "Product Owner apaixonada por construir produtos que realmente fazem diferença na vida dos usuários."
+    },
+    {
+        "id": 8,
+        "nome": "Henrique Oliveira",
+        "cargo": "Desenvolvedor Mobile iOS",
+        "cidade": "Porto Alegre",
+        "area": "Tecnologia",
+        "email": "henrique.oliveira@email.com",
+        "telefone": "(51) 91098-7654",
+        "linkedin": "linkedin.com/in/henriqueoliveira",
+        "skills": [
+            "Swift",
+            "SwiftUI",
+            "Xcode",
+            "iOS SDK"
+        ],
+        "academico": "Bacharel em Ciência da Computação - UFRGS (2016-2020)",
+        "posGraduacao": "Especialização em Desenvolvimento Mobile - PUC-RS (2021-2022)",
+        "experiencia": "4 anos em desenvolvimento de aplicativos iOS",
+        "empresaAtual": "MobileFirst Studio",
+        "cargoAnterior": "Desenvolvedor iOS Jr. na AppFactory (2020-2022)",
+        "softSkills": [
+            "Atenção aos detalhes",
+            "Criatividade",
+            "Persistência",
+            "Trabalho em equipe"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Avançado)"
+        ],
+        "hobbies": [
+            "Fotografia mobile",
+            "Gadgets",
+            "Trilhas"
+        ],
+        "certificacoes": [
+            "Apple Certified iOS Developer",
+            "Swift Specialist"
+        ],
+        "sobre": "Desenvolvedor iOS com paixão por criar experiências móveis incríveis e performáticas."
+    },
+    {
+        "id": 9,
+        "nome": "Isabela Santos",
+        "cargo": "Content Strategist",
+        "cidade": "Salvador",
+        "area": "Marketing",
+        "email": "isabela.santos@email.com",
+        "telefone": "(71) 90987-6543",
+        "linkedin": "linkedin.com/in/isabelasantos",
+        "skills": [
+            "SEO",
+            "Content Marketing",
+            "Copywriting",
+            "Analytics"
+        ],
+        "academico": "Bacharel em Jornalismo - UFBA (2015-2019)",
+        "posGraduacao": "MBA em Marketing Digital - FGV (2020-2021)",
+        "experiencia": "5 anos em estratégia de conteúdo e marketing digital",
+        "empresaAtual": "ContentMasters Agency",
+        "cargoAnterior": "Redatora Sênior na Digital Marketing Co. (2019-2022)",
+        "softSkills": [
+            "Criatividade",
+            "Comunicação escrita",
+            "Organização",
+            "Análise de dados"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)",
+            "Francês (Intermediário)"
+        ],
+        "hobbies": [
+            "Escrita criativa",
+            "Viagens",
+            "Fotografia"
+        ],
+        "certificacoes": [
+            "Google Analytics Certified",
+            "HubSpot Content Marketing"
+        ],
+        "sobre": "Estrategista de conteúdo focada em criar narrativas que engajam e convertem audiências."
+    },
+    {
+        "id": 10,
+        "nome": "João Pedro Alves",
+        "cargo": "Arquiteto de Software",
+        "cidade": "Florianópolis",
+        "area": "Tecnologia",
+        "email": "joao.alves@email.com",
+        "telefone": "(48) 99876-5432",
+        "linkedin": "linkedin.com/in/joaoalves",
+        "skills": [
+            "Microservices",
+            "System Design",
+            "Java",
+            "Cloud Architecture"
+        ],
+        "academico": "Bacharel em Engenharia de Software - UFSC (2012-2016)",
+        "posGraduacao": "Mestrado em Arquitetura de Software - UFSC (2017-2019)",
+        "experiencia": "8 anos em arquitetura e desenvolvimento de sistemas complexos",
+        "empresaAtual": "Enterprise Solutions Corp",
+        "cargoAnterior": "Tech Lead na SoftwareHouse (2016-2020)",
+        "softSkills": [
+            "Liderança técnica",
+            "Visão sistêmica",
+            "Mentoria",
+            "Comunicação"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)",
+            "Alemão (Básico)"
+        ],
+        "hobbies": [
+            "Tecnologia open-source",
+            "Xadrez",
+            "Leitura técnica"
+        ],
+        "certificacoes": [
+            "AWS Certified Solutions Architect",
+            "Java Certified Architect"
+        ],
+        "sobre": "Arquiteto de software experiente em desenhar sistemas escaláveis e resilientes para grandes volumes."
+    },
+    {
+        "id": 11,
+        "nome": "Larissa Moreira",
+        "cargo": "Analista de Dados",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "larissa.moreira@email.com",
+        "telefone": "(11) 99876-1122",
+        "linkedin": "linkedin.com/in/larissamoreira",
+        "skills": [
+            "SQL",
+            "Power BI",
+            "Python",
+            "ETL"
+        ],
+        "academico": "Bacharel em Sistemas de Informação - Mackenzie (2016-2020)",
+        "posGraduacao": "Especialização em Análise de Dados - FIAP (2021-2022)",
+        "experiencia": "3 anos em análise de dados em projetos corporativos",
+        "empresaAtual": "Insight Analytics",
+        "cargoAnterior": "Assistente de Dados na DataPlus",
+        "softSkills": [
+            "Comunicação",
+            "Pensamento analítico",
+            "Organização"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Avançado)"
+        ],
+        "hobbies": [
+            "Leitura",
+            "Ciclismo",
+            "Jogos de lógica"
+        ],
+        "certificacoes": [
+            "Microsoft Power BI Data Analyst",
+            "SQL Specialist"
+        ],
+        "sobre": "Analista de dados focada em transformar informações complexas em insights estratégicos."
+    },
+    {
+        "id": 12,
+        "nome": "Marcos Vinícius Faria",
+        "cargo": "Desenvolvedor Backend",
+        "cidade": "Campinas",
+        "area": "Tecnologia",
+        "email": "marcos.faria@email.com",
+        "telefone": "(19) 99771-2233",
+        "linkedin": "linkedin.com/in/marcosfaria",
+        "skills": [
+            "Node.js",
+            "Java",
+            "PostgreSQL",
+            "REST"
+        ],
+        "academico": "Tecnólogo em Análise e Desenvolvimento de Sistemas - FATEC (2015-2018)",
+        "posGraduacao": "MBA em Arquitetura de Software - FIAP (2020-2021)",
+        "experiencia": "5 anos em desenvolvimento backend",
+        "empresaAtual": "BackendWorks",
+        "cargoAnterior": "Dev Jr. na CodeHouse",
+        "softSkills": [
+            "Raciocínio lógico",
+            "Colaboração",
+            "Responsabilidade"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Intermediário)"
+        ],
+        "hobbies": [
+            "Programação",
+            "Futebol",
+            "Séries de tecnologia"
+        ],
+        "certificacoes": [
+            "Java Certified Professional",
+            "Node Advanced"
+        ],
+        "sobre": "Especialista em sistemas robustos e escaláveis, apaixonado por tecnologia e backend."
+    },
+    {
+        "id": 13,
+        "nome": "Patrícia Almeida",
+        "cargo": "UX Researcher",
+        "cidade": "Rio de Janeiro",
+        "area": "Design",
+        "email": "patricia.almeida@email.com",
+        "telefone": "(21) 99123-4455",
+        "linkedin": "linkedin.com/in/patriciaalmeida",
+        "skills": [
+            "Research",
+            "Entrevistas",
+            "Testes de usabilidade",
+            "Personas"
+        ],
+        "academico": "Bacharel em Psicologia - UFRJ (2014-2018)",
+        "posGraduacao": "UX Research & Strategy - EBA/UFRJ (2020-2021)",
+        "experiencia": "4 anos em pesquisa com usuários",
+        "empresaAtual": "UX Studio",
+        "cargoAnterior": "Assistente de Pesquisa na Digital Research",
+        "softSkills": [
+            "Empatia",
+            "Escuta ativa",
+            "Pensamento crítico"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Leitura",
+            "Fotografia",
+            "Documentários"
+        ],
+        "certificacoes": [
+            "UX Research Certificate",
+            "Human-Centered Design"
+        ],
+        "sobre": "Pesquisadora focada em compreender profundamente o comportamento e as necessidades dos usuários."
+    },
+    {
+        "id": 14,
+        "nome": "Rafael Novaes",
+        "cargo": "Engenheiro de Software",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "rafael.novaes@email.com",
+        "telefone": "(11) 95342-7788",
+        "linkedin": "linkedin.com/in/rafaelnovaes",
+        "skills": [
+            "C#",
+            ".NET",
+            "Azure",
+            "Microservices"
+        ],
+        "academico": "Engenharia da Computação - POLI-USP (2014-2019)",
+        "posGraduacao": "Arquitetura de Sistemas - FIAP (2020-2021)",
+        "experiencia": "6 anos em engenharia de software",
+        "empresaAtual": "Enterprise Dev Solutions",
+        "cargoAnterior": "Dev Pleno na FinTech Corp",
+        "softSkills": [
+            "Liderança",
+            "Resolução de problemas",
+            "Comunicação"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Xadrez",
+            "Programação",
+            "Corrida"
+        ],
+        "certificacoes": [
+            "Azure Solutions Architect",
+            ".NET Senior Dev"
+        ],
+        "sobre": "Engenheiro de software com foco em soluções escaláveis para empresas de grande porte."
+    },
+    {
+        "id": 15,
+        "nome": "Juliana Ribeiro",
+        "cargo": "Cientista de Dados",
+        "cidade": "Curitiba",
+        "area": "Tecnologia",
+        "email": "juliana.ribeiro@email.com",
+        "telefone": "(41) 91234-9988",
+        "linkedin": "linkedin.com/in/julianaribeiro",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Pandas",
+            "Power BI"
+        ],
+        "academico": "Estatística - UFPR (2015-2019)",
+        "posGraduacao": "Ciência de Dados - PUCPR (2020-2021)",
+        "experiencia": "4 anos em ciência de dados",
+        "empresaAtual": "DataForce Analytics",
+        "cargoAnterior": "Analista de Dados Sênior na MegaLabs",
+        "softSkills": [
+            "Curiosidade",
+            "Persistência",
+            "Pensamento crítico"
+        ],
+        "idiomas": [
+            "Português (Nativo)",
+            "Inglês (Fluente)"
+        ],
+        "hobbies": [
+            "Jogos de lógica",
+            "Yoga",
+            "Café especial"
+        ],
+        "certificacoes": [
+            "TensorFlow Developer",
+            "Microsoft Data Scientist"
+        ],
+        "sobre": "Cientista de dados apaixonada por resolver problemas complexos usando algoritmos inteligentes."
+    },
+    {
+        "id": 16,
+        "nome": "Thiago Machado",
+        "cargo": "DevOps Engineer",
+        "cidade": "Brasília",
+        "area": "Tecnologia",
+        "email": "thiago.machado@email.com",
+        "telefone": "(61) 92345-1122",
+        "linkedin": "linkedin.com/in/thiagomachado",
+        "skills": [
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "AWS"
+        ],
+        "academico": "Engenharia de Computação - UnB (2015-2019)",
+        "posGraduacao": "Cloud Computing - UFRGS (2020-2021)",
+        "experiencia": "4 anos em DevOps",
+        "empresaAtual": "CloudOps Experts",
+        "cargoAnterior": "SysAdmin na SoftTech",
+        "softSkills": [
+            "Proatividade",
+            "Organização",
+            "Comunicação"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Automação residencial",
+            "Jogos",
+            "Ciclismo"
+        ],
+        "certificacoes": [
+            "AWS DevOps Engineer",
+            "CKA"
+        ],
+        "sobre": "DevOps com foco em automação e escalabilidade para ambientes cloud."
+    },
+    {
+        "id": 17,
+        "nome": "Amanda Torres",
+        "cargo": "Design Lead",
+        "cidade": "Porto Alegre",
+        "area": "Design",
+        "email": "amanda.torres@email.com",
+        "telefone": "(51) 98844-2233",
+        "linkedin": "linkedin.com/in/amandatorres",
+        "skills": [
+            "Figma",
+            "Design System",
+            "UI",
+            "Prototipagem"
+        ],
+        "academico": "Design Gráfico - UFRGS (2014-2018)",
+        "posGraduacao": "Design Estratégico - ESPM (2020-2021)",
+        "experiencia": "6 anos em design digital",
+        "empresaAtual": "DesignGroup Studio",
+        "cargoAnterior": "UX/UI Designer na WebAgency",
+        "softSkills": [
+            "Criatividade",
+            "Visão estética",
+            "Gestão de equipes"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Ilustração",
+            "Música",
+            "Viagens"
+        ],
+        "certificacoes": [
+            "UI Expert Certification",
+            "Design Strategy"
+        ],
+        "sobre": "Designer experiente liderando equipes e construindo experiências digitais de alto impacto."
+    },
+    {
+        "id": 18,
+        "nome": "Gabriel Fonseca",
+        "cargo": "Engenheiro de Machine Learning",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "gabriel.fonseca@email.com",
+        "telefone": "(11) 95432-4455",
+        "linkedin": "linkedin.com/in/gabrielfonseca",
+        "skills": [
+            "Python",
+            "TensorFlow",
+            "Scikit-Learn",
+            "MLOps"
+        ],
+        "academico": "Ciência da Computação - USP (2014-2018)",
+        "posGraduacao": "Machine Learning - Stanford Online (2020-2022)",
+        "experiencia": "4 anos em machine learning",
+        "empresaAtual": "AI Solutions Lab",
+        "cargoAnterior": "Data Scientist Jr. na SmartData",
+        "softSkills": [
+            "Pensamento analítico",
+            "Resolução de problemas",
+            "Comunicação técnica"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Xadrez",
+            "Corrida",
+            "Ciência"
+        ],
+        "certificacoes": [
+            "TensorFlow Developer",
+            "DeepLearning.AI ML Engineer"
+        ],
+        "sobre": "Engenheiro de ML focado em desenvolver modelos inteligentes e escaláveis."
+    },
+    {
+        "id": 19,
+        "nome": "Mirella Rocha",
+        "cargo": "Scrum Master",
+        "cidade": "Florianópolis",
+        "area": "Gestão",
+        "email": "mirella.rocha@email.com",
+        "telefone": "(48) 99123-4433",
+        "linkedin": "linkedin.com/in/mirellarocha",
+        "skills": [
+            "Scrum",
+            "Kanban",
+            "Facilitação",
+            "Jira"
+        ],
+        "academico": "Administração - UFSC (2015-2019)",
+        "posGraduacao": "Agile Project Management - FGV (2020-2021)",
+        "experiencia": "5 anos facilitando equipes ágeis",
+        "empresaAtual": "AgileFlow Consulting",
+        "cargoAnterior": "Scrum Master Jr. na TechHub",
+        "softSkills": [
+            "Liderança",
+            "Comunicação",
+            "Empatia"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Yoga",
+            "Livros",
+            "Workshops"
+        ],
+        "certificacoes": [
+            "CSM",
+            "PMP"
+        ],
+        "sobre": "Scrum Master dedicada a facilitar equipes e criar ambientes produtivos."
+    },
+    {
+        "id": 20,
+        "nome": "Vinícius Pacheco",
+        "cargo": "Analista de Marketing Digital",
+        "cidade": "São Paulo",
+        "area": "Marketing",
+        "email": "vinicius.pacheco@email.com",
+        "telefone": "(11) 93322-8899",
+        "linkedin": "linkedin.com/in/viniciuspacheco",
+        "skills": [
+            "SEO",
+            "Copywriting",
+            "Analytics",
+            "Meta Ads"
+        ],
+        "academico": "Publicidade e Propaganda - FAAP (2016-2020)",
+        "posGraduacao": "Marketing Digital - ESPM (2020-2021)",
+        "experiencia": "3 anos gerindo campanhas de marketing",
+        "empresaAtual": "GrowthDigital",
+        "cargoAnterior": "Copywriter Jr. na ADS Media",
+        "softSkills": [
+            "Criatividade",
+            "Comunicação escrita",
+            "Organização"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Leitura",
+            "Fotografia",
+            "Blogs"
+        ],
+        "certificacoes": [
+            "Google Analytics",
+            "Meta Ads Expert"
+        ],
+        "sobre": "Profissional de marketing digital focado em crescimento e estratégias orientadas a dados."
+    },
+    {
+        "id": 21,
+        "nome": "Camila Duarte",
+        "cargo": "HR Business Partner",
+        "cidade": "Belo Horizonte",
+        "area": "RH",
+        "email": "camila.duarte@email.com",
+        "telefone": "(31) 94455-6622",
+        "linkedin": "linkedin.com/in/camiladuarte",
+        "skills": [
+            "Recrutamento",
+            "People Analytics",
+            "Clima organizacional",
+            "Treinamento"
+        ],
+        "academico": "Psicologia - UFMG (2014-2018)",
+        "posGraduacao": "Gestão de Pessoas - FGV (2019-2020)",
+        "experiencia": "6 anos em RH estratégico",
+        "empresaAtual": "HumanWorks",
+        "cargoAnterior": "Analista de RH Sr. na TalentPro",
+        "softSkills": [
+            "Empatia",
+            "Comunicação",
+            "Liderança"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Yoga",
+            "Terapias holísticas",
+            "Leitura"
+        ],
+        "certificacoes": [
+            "People Analytics",
+            "HRBP Advanced"
+        ],
+        "sobre": "HRBP apaixonada por desenvolvimento humano e cultura organizacional."
+    },
+    {
+        "id": 22,
+        "nome": "Diego Albuquerque",
+        "cargo": "Desenvolvedor Frontend",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "diego.albuquerque@email.com",
+        "telefone": "(11) 95421-3344",
+        "linkedin": "linkedin.com/in/diegoalbuquerque",
+        "skills": [
+            "React",
+            "Next.js",
+            "Tailwind",
+            "JavaScript"
+        ],
+        "academico": "ADS - SENAC (2017-2020)",
+        "posGraduacao": "Frontend Engineering - Alura (2021-2022)",
+        "experiencia": "3 anos criando interfaces web",
+        "empresaAtual": "Frontend Masters",
+        "cargoAnterior": "Dev Jr. na PixelTech",
+        "softSkills": [
+            "Criatividade",
+            "Organização",
+            "Comunicação"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Games",
+            "Trilhas",
+            "Música"
+        ],
+        "certificacoes": [
+            "React Specialist",
+            "Javascript Advanced"
+        ],
+        "sobre": "Frontend developer especializado em criar interfaces rápidas e responsivas."
+    },
+    {
+        "id": 23,
+        "nome": "Nicole Freitas",
+        "cargo": "Product Designer",
+        "cidade": "Curitiba",
+        "area": "Design",
+        "email": "nicole.freitas@email.com",
+        "telefone": "(41) 94412-5544",
+        "linkedin": "linkedin.com/in/nicolefreitas",
+        "skills": [
+            "Figma",
+            "UX",
+            "UI",
+            "Prototipagem"
+        ],
+        "academico": "Design Digital - PUCPR (2016-2020)",
+        "posGraduacao": "UX/UI Design - FIAP (2021-2022)",
+        "experiencia": "3 anos em design de produtos",
+        "empresaAtual": "ProductLab",
+        "cargoAnterior": "UI Designer na UXPro",
+        "softSkills": [
+            "Criatividade",
+            "Empatia",
+            "Organização"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Ilustração",
+            "Cinema",
+            "Café"
+        ],
+        "certificacoes": [
+            "UX Certified",
+            "Design System Specialist"
+        ],
+        "sobre": "Product designer focada em criar experiências intuitivas e acessíveis."
+    },
+    {
+        "id": 24,
+        "nome": "Leonardo Barbosa",
+        "cargo": "Administrador de Redes",
+        "cidade": "Fortaleza",
+        "area": "Tecnologia",
+        "email": "leonardo.barbosa@email.com",
+        "telefone": "(85) 93321-8877",
+        "linkedin": "linkedin.com/in/leonardobarbosa",
+        "skills": [
+            "Redes",
+            "Firewall",
+            "VPN",
+            "Linux"
+        ],
+        "academico": "Redes de Computadores - IFCE (2014-2017)",
+        "posGraduacao": "Segurança de Redes - UFRN (2020-2021)",
+        "experiencia": "5 anos administrando redes corporativas",
+        "empresaAtual": "NetSecure",
+        "cargoAnterior": "Analista de Redes na Infotech",
+        "softSkills": [
+            "Responsabilidade",
+            "Comunicação",
+            "Atenção"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Tecnologia",
+            "Ciclismo",
+            "Séries"
+        ],
+        "certificacoes": [
+            "CCNA",
+            "Linux Professional"
+        ],
+        "sobre": "Administrador de redes com foco em estabilidade, segurança e alta performance."
+    },
+    {
+        "id": 25,
+        "nome": "Elaine Porto",
+        "cargo": "Recrutadora Tech",
+        "cidade": "Recife",
+        "area": "RH",
+        "email": "elaine.porto@email.com",
+        "telefone": "(81) 94433-2299",
+        "linkedin": "linkedin.com/in/elaineporto",
+        "skills": [
+            "Recrutamento tech",
+            "Entrevistas",
+            "Comunicação",
+            "People Analytics"
+        ],
+        "academico": "Psicologia - UFPE (2015-2019)",
+        "posGraduacao": "Gestão de Pessoas - FGV (2020-2021)",
+        "experiencia": "4 anos recrutando talentos de tecnologia",
+        "empresaAtual": "TechHire",
+        "cargoAnterior": "Recrutadora Jr. na TalentNow",
+        "softSkills": [
+            "Empatia",
+            "Escuta",
+            "Organização"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Livros",
+            "Séries",
+            "Praia"
+        ],
+        "certificacoes": [
+            "Recrutamento Tech",
+            "People Analytics"
+        ],
+        "sobre": "Recrutadora especializada em selecionar profissionais tech com foco em cultura e fit."
+    },
+    {
+        "id": 26,
+        "nome": "Pedro Azevedo",
+        "cargo": "Full Stack Developer",
+        "cidade": "São Paulo",
+        "area": "Tecnologia",
+        "email": "pedro.azevedo@email.com",
+        "telefone": "(11) 92233-7766",
+        "linkedin": "linkedin.com/in/pedroazevedo",
+        "skills": [
+            "React",
+            "Node.js",
+            "MongoDB",
+            "Next.js"
+        ],
+        "academico": "ADS - FATEC (2016-2019)",
+        "posGraduacao": "Full Stack Engineering - FIAP (2021-2022)",
+        "experiencia": "4 anos como full stack",
+        "empresaAtual": "WebDev Solutions",
+        "cargoAnterior": "Dev Jr. na Code7",
+        "softSkills": [
+            "Responsabilidade",
+            "Comunicação",
+            "Lógica"
+        ],
+        "idiomas": [
+            "Português",
+            "Inglês"
+        ],
+        "hobbies": [
+            "Jogos",
+            "Bike",
+            "Tecnologia"
+        ],
+        "certificacoes": [
+            "React Specialist",
+            "Node Expert"
+        ],
+        "sobre": "Full stack developer apaixonado por desenvolver aplicações eficientes."
+    },
+    {
+        "id": 27,
+        "nome": "Helena Moraes",
+        "cargo": "Especialista em Atendimento",
+        "cidade": "Niterói - RJ",
+        "area": "Atendimento",
+        "avatarUrl": "https://i.pravatar.cc/150?img=27",
+        "skills": [
+            "Comunicação",
+            "CRM",
+            "Gestão de conflitos"
+        ],
+        "hobbies": [
+            "Música",
+            "Leitura"
+        ],
+        "certificacoes": [
+            "CX Training - Zendesk"
+        ],
+        "formacao": "Comunicação Social - UFF",
+        "linkedin": "https://www.linkedin.com/in/helenamoraes",
+        "sobre": "Profissional de atendimento com foco em experiência do cliente."
+    },
+    {
+        "id": 28,
+        "nome": "André Carvalho",
+        "cargo": "Analista de Dados",
+        "cidade": "São Luís - MA",
+        "area": "Tecnologia",
+        "avatarUrl": "https://i.pravatar.cc/150?img=28",
+        "skills": [
+            "SQL",
+            "Python",
+            "Power BI"
+        ],
+        "hobbies": [
+            "Corrida",
+            "Tecnologia"
+        ],
+        "certificacoes": [
+            "Data Analytics - Google"
+        ],
+        "formacao": "Estatística - UFMA",
+        "linkedin": "https://www.linkedin.com/in/andrecarvalho",
+        "sobre": "Analista de dados focado em dashboards e inteligência de negócios."
+    },
+    {
+        "id": 29,
+        "nome": "Marcela Lima",
+        "cargo": "Arquiteta UX",
+        "cidade": "Curitiba - PR",
+        "area": "Design",
+        "avatarUrl": "https://i.pravatar.cc/150?img=29",
+        "skills": [
+            "UX Strategy",
+            "Arquitetura da Informação",
+            "Figma"
+        ],
+        "hobbies": [
+            "Arte",
+            "Café"
+        ],
+        "certificacoes": [
+            "UX Strategy - Nielsen Norman Group"
+        ],
+        "formacao": "Design - UTFPR",
+        "linkedin": "https://www.linkedin.com/in/marcelalima",
+        "sobre": "Arquiteta UX focada em organização de experiências digitais complexas."
+    },
+    {
+        "id": 30,
+        "nome": "Pedro Rezende",
+        "cargo": "Administrador de Sistemas",
+        "cidade": "Uberlândia - MG",
+        "area": "Infraestrutura",
+        "avatarUrl": "https://i.pravatar.cc/150?img=30",
+        "skills": [
+            "Linux",
+            "Servidores",
+            "Virtualização"
+        ],
+        "hobbies": [
+            "Automação",
+            "Leitura"
+        ],
+        "certificacoes": [
+            "LPIC-1"
+        ],
+        "formacao": "Redes - UFU",
+        "linkedin": "https://www.linkedin.com/in/pedrorezende",
+        "sobre": "Administrador de sistemas com experiência em ambientes críticos."
+    }
+    
+]
