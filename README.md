@@ -12,7 +12,6 @@
         <li>Garantir uma interface web responsiva e amigável</li>
         <li>Possibilitar futuras integrações com APIs externas, dashboards analíticos ou mobile</li>
     </ul>
-
     <h2>🧩 Arquitetura do Sistema</h2>
     <table border="1">
         <tr>
