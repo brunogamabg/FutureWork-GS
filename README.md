@@ -73,7 +73,7 @@
     <h2>👨‍💻 Integrantes do Grupo</h2>
     <ul>
         <li>BRUNO GAMA MASSEIRAS — RM: 562526</li>
-        <li>Kauai Rosa — RM: 2345678</li>
+        <li>Kauai Rosa — RM: 563252</li>
     </ul>
     <h2>📂 Link do Repositório</h2>
     <p>https://github.com/seu-usuario/seu-repositorio</p>
