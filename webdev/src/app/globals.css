@@ -5,3 +5,27 @@ body {
   color: #171717;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Colorize mode: turn all text white and map white backgrounds to an accent */
+.colorize body, .colorize body * { color: #ffffff !important; }
+
+[data-white-bg] {
+  transition: background-color 200ms ease, border-color 200ms ease, color 200ms ease;
+}
+
+.colorize [data-surface] {
+  background-color: var(--dark-bg, #000000) !important;
+  border-color: var(--dark-bg, #000000) !important;
+}
+
+.colorize [data-white-bg] {
+  background-color: var(--dark-surface, #111827) !important; /* slightly lighter for cards/inputs */
+  border-color: color-mix(in srgb, var(--dark-surface, #111827), white 6%) !important;
+}
+
+/* Chips/badges in dark mode */
+.colorize [data-chip] {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+  color: #ffffff !important;
+}

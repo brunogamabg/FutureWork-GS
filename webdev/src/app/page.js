@@ -72,9 +72,9 @@ export default function Home() {
   }
 
   return (
-    <div className="min-h-screen bg-white transition-colors duration-300">
+    <div className="min-h-screen bg-gray-100 transition-colors duration-300" data-surface>
       <Header />
-      <div className="flex flex-col items-center py-12 px-4 bg-gray-900">
+      <div className="flex flex-col items-center py-12 px-4 bg-gray-100" data-surface>
         <div className="w-full max-w-4xl mb-8">
           <SearchBar value={search} onChange={setSearch} />
         </div>
@@ -92,9 +92,9 @@ export default function Home() {
               tecnologias={tecnologias}
             />
           </div>
-          {loading && <p className="text-center text-gray-400">Carregando profissionais...</p>}
-          {error && <p className="text-center text-red-500">Erro ao carregar dados.</p>}
-          <div className="mb-6 text-base text-blue-400 font-medium flex items-center gap-2">
+          {loading && <p className="text-center text-gray-600">Carregando profissionais...</p>}
+          {error && <p className="text-center text-red-600">Erro ao carregar dados.</p>}
+          <div className="mb-6 text-base text-blue-600 font-medium flex items-center gap-2">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
             </svg>
@@ -120,10 +120,10 @@ export default function Home() {
           )}
           {messageModal && (
             <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-              <div className="bg-white rounded-2xl p-8 w-full max-w-md border border-gray-200">
+              <div className="bg-white rounded-2xl p-8 w-full max-w-md border border-blue-300" data-white-bg>
                 <h2 className="text-xl font-bold mb-4 text-gray-900 text-center">Enviar mensagem</h2>
-                <input type="text" placeholder="Seu nome" className="w-full mb-3 p-3 rounded-lg border border-gray-300 bg-gray-50 text-gray-900" />
-                <textarea placeholder="Mensagem" className="w-full mb-3 p-3 rounded-lg border border-gray-300 bg-gray-50 text-gray-900" rows={4} />
+                <input type="text" placeholder="Seu nome" className="w-full mb-3 p-3 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 placeholder-gray-500" />
+                <textarea placeholder="Mensagem" className="w-full mb-3 p-3 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 placeholder-gray-500" rows={4} />
                 <button className="bg-blue-600 text-white px-4 py-3 rounded-full hover:bg-blue-700 w-full font-semibold" onClick={handleCloseModal}>Enviar</button>
               </div>
             </div>

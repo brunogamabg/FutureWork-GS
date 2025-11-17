@@ -1,12 +1,13 @@
-import React from "react";
+"use client";
+import React, { useMemo } from "react";
 
 export default function ProfessionalModal({ profissional, onClose, onRecommend, onMessage }) {
     if (!profissional) return null;
     // Avatar DiceBear
-    const avatarUrl = `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(profissional.nome.split(' ')[0])}`;
+    const avatarUrl = useMemo(() => `https://api.dicebear.com/7.x/avataaars/svg?seed=${encodeURIComponent(profissional.nome.split(' ')[0])}`, [profissional.nome]);
     return (
         <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 p-4">
-            <div className="bg-white rounded-2xl p-8 w-full max-w-lg relative shadow-2xl border border-gray-200">
+            <div className="bg-white rounded-2xl p-8 w-full max-w-lg relative shadow-2xl border border-blue-300" data-white-bg>
                 <button
                     className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 text-3xl font-light"
                     onClick={onClose}
@@ -24,7 +25,7 @@ export default function ProfessionalModal({ profissional, onClose, onRecommend, 
                     </div>
                     <div className="mb-4 flex flex-wrap justify-center gap-2">
                         {profissional.skills.map((skill) => (
-                            <span key={skill} className="px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700">{skill}</span>
+                            <span key={skill} className="px-3 py-1 rounded-full text-xs font-medium bg-blue-50 text-blue-700 border border-transparent" data-chip>{skill}</span>
                         ))}
                     </div>
                     <div className="w-full text-sm space-y-3 mb-4">
